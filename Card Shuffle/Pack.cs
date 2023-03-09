@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CardShuffle
 {
-    public class Pack //Want to randomly generate a pack of cards with suit 1-4 and card 1-13 in a (suit, card) format
+    public class Pack //Want to randomly generate a pack of cards with suit 1-4 and card 0-12 in a (suit, card) format
     {
         public List<Card> cards;
 
